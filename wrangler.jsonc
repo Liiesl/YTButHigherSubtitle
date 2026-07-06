@@ -1,7 +1,7 @@
 {
   "name": "ytbuthighersubtitle",
   "main": "src/server.hono.ts",
-  "compatibility_date": "2026-07-07",
+  "compatibility_date": "2026-07-06",
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": "./dist",
