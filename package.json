@@ -1,0 +1,31 @@
+{
+  "name": "ytbuthighersubtitle",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:server": "bun run --hot src/server.ts",
+    "build": "vite build",
+    "start": "bun run build && bun run src/server.ts",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.4.2",
+    "@elysiajs/static": "^1.4.10",
+    "elysia": "^1.4.29",
+    "hono": "^4.12.28",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "youtube-transcript-api-js": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "oxlint": "^1.71.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.1"
+  }
+}
